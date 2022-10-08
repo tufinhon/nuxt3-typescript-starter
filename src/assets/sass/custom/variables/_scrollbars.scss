@@ -1,0 +1,11 @@
+// Scrollbars
+
+@import 'colors';
+
+$scrollbar-track-color: $gray-100;
+$scrollbar-thumb-color: $gray-200;
+$scrollbar-thumb-hover-color: $gray-500;
+$scrollbar-width: 10px;
+$scrollbar-border-width: 4px;
+$scrollbar-radius: 5px; // <= $scrollbar-width / 2
+

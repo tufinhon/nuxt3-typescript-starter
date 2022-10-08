@@ -1,0 +1,86 @@
+export const sportIcons = [
+  {
+    id: "voleibol",
+    text: "Volleyball",
+    icon: "fas fa-volleyball-ball",
+    spin: true,
+  },
+  {
+    id: "golf",
+    text: "Golf",
+    icon: "fas fa-golf-ball",
+    spin: false,
+  },
+  {
+    id: "football",
+    text: "Futbol Americano",
+    icon: "fas fa-football-ball",
+    spin: true,
+  },
+  {
+    id: "boliche",
+    text: "Boliche",
+    icon: "fas fa-bowling-ball",
+    spin: true,
+  },
+  {
+    id: "basketball",
+    text: "Basketball",
+    icon: "fas fa-basketball-ball",
+    spin: true,
+  },
+  {
+    id: "beisbol",
+    text: "Baseball",
+    icon: "fas fa-baseball-ball",
+    spin: true,
+  },
+  {
+    id: "tenis-de-mesa",
+    text: "Tenis de Mesa",
+    icon: "fas fa-table-tennis",
+    spin: true,
+  },
+  {
+    id: "soccer",
+    text: "Fubol Soccer",
+    icon: "fas fa-futbol",
+    spin: true,
+  },
+  {
+    id: "soccer-alt",
+    text: "Fubol Soccer",
+    icon: "far fa-futbol",
+    spin: true,
+  },
+  {
+    id: "atletismo",
+    text: "Atletismo",
+    icon: "fas fa-running",
+    spin: false,
+  },
+  {
+    id: "patineta",
+    text: "Patineta",
+    icon: "fas fa-snowboarding",
+    spin: false,
+  },
+  {
+    id: "patinaje",
+    text: "Patinaje",
+    icon: "fas fa-skating",
+    spin: false,
+  },
+  {
+    id: "ciclismo",
+    text: "Ciclismo",
+    icon: "fas fa-biking",
+    spin: false,
+  },
+  {
+    id: "natacion",
+    text: "Natacion",
+    icon: "fas fa-swimmer",
+    spin: false,
+  },
+];

@@ -1,0 +1,16 @@
+# Nuxi default + Documentation + Prev Project
+# Nuxt dev/build outputs
+.output
+.nuxt
+.nitro
+# Node dependencies / Dependency directories
+node_modules
+jspm_packages/
+# System files
+/logs
+*.log*
+.cache
+.env
+dist
+# Optional eslint cache
+.eslintcache

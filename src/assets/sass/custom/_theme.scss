@@ -1,0 +1,110 @@
+// WePlayOne Theme Styles
+
+@import './variables/theme';
+@import './variables/fonts';
+@import './variables/colors';
+
+// =============================================================================
+// Global Setup
+// =============================================================================
+.theme--light .v-sheet {
+  color: $theme-body !important;
+}
+
+.v-application {
+  font-family: $font-family-base !important;
+}
+
+// =============================================================================
+// Spacing Helpers
+// =============================================================================
+$properties: ('margin', 'padding');
+$spacing-sizes: (17, 18, 19, 20, 21, 22, 23, 24, 25);
+$directions: (top, bottom, left, right);
+
+@each $spacing-size in $spacing-sizes {
+  @each $direction in $directions {
+    .m#{str-slice($direction, 0, 1)}-#{$spacing-size} {
+      margin-#{$direction}: #{$spacing-size*4}px !important;
+    }
+  
+    .p#{str-slice($direction, 0, 1)}-#{$spacing-size} {
+      padding-#{$direction}: #{$spacing-size*4}px !important;
+    }
+  }
+  @each $property in $properties {
+    .#{str-slice($property, 0, 1)}x-#{$spacing-size} {
+      #{$property}-left: #{$spacing-size*4}px !important;
+      #{$property}-right: #{$spacing-size*4}px !important;
+    }
+    .#{str-slice($property, 0, 1)}y-#{$spacing-size} {
+      #{$property}-top: #{$spacing-size*4}px !important;
+      #{$property}-bottom: #{$spacing-size*4}px !important;
+    }
+  }
+  .ma-#{$spacing-size} {
+    margin: #{$spacing-size*4}px !important;
+  }
+}
+
+// =============================================================================
+// Size Helpers
+// =============================================================================
+@for $i from 1 through 100 {
+  .height-#{$i} {
+    height: #{$i*4}px !important;
+  }
+  .width-#{$i} {
+    height: #{$i*4}px !important;
+  }
+}
+
+// =============================================================================
+// List Helpers
+// =============================================================================
+.no-bullets {
+  list-style-type: none !important; /* Remove bullets */
+  padding: 0 !important; /* Remove padding */
+  margin: 0 !important; /* Remove margins */
+}
+
+// =============================================================================
+// Custom Theme Colors
+// =============================================================================
+.theme-gradient {
+  background: $theme-gradient;
+}
+.theme-gradient-light {
+  background: $theme-gradient-light;
+}
+.theme-background-overflow {
+  background-color: rgba( $theme-shadow, 0.06 );
+}
+
+// =============================================================================
+// Custom Font Classes
+// =============================================================================
+@for $font-size from 1 through 100 {
+  .font-size-#{$font-size} {
+    font-size: #{$font-size}px !important;
+  }
+}
+
+@each $font-weight-name, $font-weight-number in $font-weights {
+  .font-weight-#{$font-weight-name} {
+    font-weight: $font-weight-number !important;
+  }
+  .font-weight-#{$font-weight-number} {
+    font-weight: $font-weight-number !important;
+  }
+}
+
+@each $color-name, $color-value in $colors {
+  .font-color-#{$color-name} {
+    color: $color-value;
+  }
+}
+
+.font-color-body {
+  color: $theme-body;
+}

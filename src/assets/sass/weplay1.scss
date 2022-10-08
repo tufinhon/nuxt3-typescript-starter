@@ -1,0 +1,27 @@
+
+/*!
+
+=========================================================
+* We Play One - v1.0.0
+=========================================================
+
+* Product Page: https://www.*****.com/
+* Copyright 2022 (https://www.*****.com)
+
+* Developed by WePlayOne-Team
+
+=========================================================
+
+*/
+
+// Settings
+@import 'custom/settings';
+
+// Mixin Functions
+@import 'custom/mixins'; // Fixed sass loader font-face issues: https://github.com/nuxt-community/style-resources-module/issues/101
+
+// Global Styles
+@import 'custom/globals';
+
+// Transitions
+@import 'custom/transitions';

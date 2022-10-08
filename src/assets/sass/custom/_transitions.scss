@@ -1,0 +1,98 @@
+// Animations
+
+// Page Transitions
+.page-enter-active {
+  transition: opacity 0.2s ease-out;
+}
+
+.page-leave-active {
+  transition: opacity 0.2s ease-in;
+}
+
+.page-enter,
+.page-leave-active {
+  opacity: 0;
+}
+
+// Spin Transitions
+.spinner {
+  animation: spin 5s linear infinite;
+}  
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }  
+  to {
+    transform: rotate(360deg);
+  }  
+}  
+
+// ----- Fade In
+.fade-in {
+  animation: fadeIn ease 10s;
+  -webkit-animation: fadeIn ease 10s;
+  -moz-animation: fadeIn ease 10s;
+  -o-animation: fadeIn ease 10s;
+  -ms-animation: fadeIn ease 10s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+// ----- Fade Out
+.fade-out {
+  animation: fadeOut ease 8s;
+  -webkit-animation: fadeOut ease 8s;
+  -moz-animation: fadeOut ease 8s;
+  -o-animation: fadeOut ease 8s;
+  -ms-animation: fadeOut ease 8s;
+}
+@keyframes fadeOut {
+  0% {
+    opacity:1;
+  }
+  100% {
+    opacity:0;
+  }
+}
+
+@-moz-keyframes fadeOut {
+  0% {
+    opacity:1;
+  }
+  100% {
+    opacity:0;
+  }
+}
+
+@-webkit-keyframes fadeOut {
+  0% {
+    opacity:1;
+  }
+  100% {
+    opacity:0;
+  }
+}

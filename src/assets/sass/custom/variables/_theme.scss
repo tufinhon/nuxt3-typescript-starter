@@ -1,0 +1,57 @@
+// WePlayOne Theme Variables
+
+/* Color styles */
+
+/* Figma Variables */ 
+$body: #41251C;
+$main-color: #FF7043;
+$main-dark-1: #FF572F;
+$main-dark-2: #D94B2A;
+$main-dark-3: #41251C;
+$main-accent-1: #FF8352;
+$main-accent-2: #FF935F;
+$main-accent-3: #FFE2D9;
+$secondary-color: #8FC93A;
+$secondary-dark-1: #76B828;
+$secondary-dark-2: #659D24;
+$secondary-dark-3: #1E2416;
+$secondary-accent-1: #A2D647;
+$secondary-accent-2: #B2E153;
+$secondary-accent-3: #E9F4D8;
+$third-color: #6A7FDB;
+$third-dark-1: #577497;
+$third-dark-2: #4C6581;
+$third-dark-3: #1B1D26;
+$third-accent-1: #7D92E4;
+$third-accent-2: #8DA3EC;
+$third-accent-3: #E1E5F8;
+
+/* Default Variables */ 
+$default: #143642; /*gunmetal*/ 
+$primary: #ee8500; /*tangerine*/ 
+$secondary: #6a7fdb; /*glaucous*/ 
+$info: #e6e1c5;  /*eggshell*/ 
+$success: #8fc93a; /*yellow-green*/ 
+$danger: #f84c4c; /*tart-orange*/ 
+$warning: #fdcf39; /*sunglow*/ 
+
+/* Dark Variants */
+$primary-dark: #ee7100;
+$secondary-dark: #6a6cdb;
+$info-dark: #e3e6c5;
+
+/* Gradient Variables */
+$primary-gradient: linear-gradient(to right, $primary-dark, $primary); 
+$secondary-gradient: linear-gradient(to right, $secondary-dark, $secondary); 
+$info-gradient: linear-gradient(to right, $info-dark, $info);
+
+// Old variables (to be deleted(
+$theme-primary: #ee8500;
+$theme-primary-darken: #ee5d00;
+$theme-secondary: #eeA900;
+$theme-disabled: #ffac3e;
+$theme-shadow: #FF70430F;
+$theme-gradient: linear-gradient(to right, $theme-primary-darken, $theme-primary);
+$theme-gradient-light: linear-gradient(to right, $theme-primary, $theme-secondary);
+
+$theme-body: #41251C;

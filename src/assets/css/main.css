@@ -1,0 +1,137 @@
+
+/*   Navbar   */
+.custom-bg-navbar{
+    background: linear-gradient(to right, #ee7100, #ee8500);
+}
+
+
+
+/*   Intro   */
+.intro-section {
+    background: linear-gradient(to right,  #ee5d00, #ee8500);
+    padding: 6rem 0 0 0;
+    width: 100%;
+    height: 100%;
+}
+
+.display-2 {
+    margin-bottom: 1rem;
+    text-transform: capitalize;
+    font-family: "Poppins", sans-serif;
+}
+
+.display-2--preintro {
+  display: inline-block;
+  display: block;
+  font-size: 2rem;
+  font-family: "Poppins", sans-serif;
+}
+
+.display-2--intro {
+    display: inline-block;
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+}
+
+.display-2--description {
+    font-size: 1rem;
+    display: block;
+    margin-top: 1.2rem;
+    text-transform: none;
+}
+
+@media (min-width: 992px) {
+    .display-2--description {
+      font-size: 1.4rem;
+      display: inline-block;
+    }
+  }
+  
+
+.caja-busqueda{
+  padding-bottom: 3rem;
+}
+  
+.logros{
+  color:#fff8ee;
+}
+
+section.module.parallax {
+  /*height: 600px;*/
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+section.module.parallax-1 {
+  background-image: url("../img/logros-registros.jpg");
+}
+
+
+.ultimas-solicitudes{
+  padding: 3rem 0 3rem 0;
+  background-color: #fff8ee;
+}
+
+
+.piecera{
+  margin-top: -16rem;
+  padding: 3rem 0 3rem 0;
+  background-color: #f18358;
+}
+
+body{
+  background: #ee8500;
+  background: linear-gradient(to right,  #ee5d00, #ee8500);
+}
+
+.fondo-login{
+  background: white;
+}
+
+.foto-login{
+  background: url(../img/weplayone-login.jpg);
+  background-position: center center;
+}
+
+.foto-signup{
+  background: url(../img/weplayone-registro.jpg);
+  background-position: center center;
+}
+
+.btn-social-facebook{
+  display: block;
+  background: #1a538a;
+  color: white;
+  border-radius: 4px;
+  font-size: 24px;
+  height: 48px;
+  text-decoration: none;
+}
+
+.btn-social-google{
+  display: block;
+  background: rgb(236, 231, 231);
+  border-radius: 4px;
+  font-size: 24px;
+  height: 48px;
+  text-decoration: none;
+}
+
+.btn-social-facebook a{
+  text-decoration: none;
+  color: white;
+}
+
+.btn-social-google a{
+  text-decoration: none;
+}
+
+.btn-social-facebook a:visited{
+  color: white;
+}
+
+.btn-social-google a{
+  color: black;
+}
