@@ -1,0 +1,1 @@
+### Stores Directory for Pinia

@@ -54,7 +54,7 @@ module.exports = {
     'vue/no-unused-vars': 'warn',
     // 'vue/require-default-prop': 'off',
     '@typescript-eslint/explicit-function-return-type': 'warn',
-    // '@typescript-eslint/strict-boolean-expressions': 'off',
+    '@typescript-eslint/strict-boolean-expressions': 'off',
     'no-console': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
     'no-debugger': process.env.NODE_ENV === 'production' ? 'warn' : 'off'
 
@@ -64,9 +64,7 @@ module.exports = {
     // 'space-before-function-paren': 'off',
     // 'vue/singleline-html-element-content-newline': 'off',
     // 'vue/multiline-html-element-content-newline': 'off',
-
     // 'vue/html-closing-bracket-newline': 'off',
-
     // 'no-trailing-spaces': 'off',
     // 'no-multiple-empty-lines': 'off',
     // 'no-console': 'off',

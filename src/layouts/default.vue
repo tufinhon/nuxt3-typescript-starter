@@ -1,15 +1,14 @@
-<template>
-  <NuxtPage />
-</template>
-
-<script lang="ts">
-export default defineComponent({
-  name: 'DefaultLayout',
-  setup() {
-    return {};
-  }
-});
+<script setup lang="ts">
+useLayout();
 </script>
+
+<template>
+  <div>
+    Some default layout shared across all pages
+    <br />
+    <slot />
+  </div>
+</template>
 
 <style scoped lang="scss"></style>
 

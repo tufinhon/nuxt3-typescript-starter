@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     // From: https://typescript.nuxtjs.org/guide/setup/#configuration -> Version @ 2018
-    "baseUrl": ".", // this must be specified if "paths" is specified. ALIAS
+    "baseUrl": ".", // this must be specified if "paths" is specified. REQUIRED FOR ALIAS MAPPING
     "lib": ["ESNext", "ESNext.AsyncIterable", "DOM"],
     "esModuleInterop": true,
     "allowJs": true,

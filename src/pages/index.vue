@@ -1,21 +1,15 @@
 <script setup lang="ts">
 // Script
-const login = useLogin();
-</script>
-
-<script lang="ts">
-export default defineComponent({
-  name: 'Index'
+definePageMeta({
+  // layout: 'default',
+  title: 'Home'
 });
 </script>
 
 <template>
   <!-- Content -->
-  Basic component structure
-  <AssetsNuxtLogo />
-  <!-- <Logo />
-  <NuxtLogo /> -->
-  <AssetsVuetifyLogo />
+  Basic Page structure
+  <NuxtWelcome />
 </template>
 
 <style lang="scss">

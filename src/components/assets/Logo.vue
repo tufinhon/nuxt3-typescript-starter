@@ -9,7 +9,7 @@ export default defineComponent({
     class="nuxt-logo"
     viewBox="0 0 45 30"
     alt="Vuetify Logo"
-    src="public/img/weplay1.png"
+    src="/img/nuxt.png"
   />
 </template>
 
